@@ -1,0 +1,13 @@
+Impressive.  I must admit I didn't think you would be able to achieve so much
+in such a short span of time.
+
+By now you have discovered the organization you have been hacking is called
+ReUsing Nature.  They are a leading pharmaceutical company that distributes
+products throughout the world.  Needless to say, this is a very powerful
+company.
+
+In order to dig deeper you will need to access their Human Resources database.
+I have upgraded your hack routine to allow you to do so, just use the
+command 'hr' within the hack routine.  Keep digging, you're getting closer.
+
+Your Employer

@@ -1,0 +1,6 @@
+Welcome to the Gateway System!
+This system will allow you to connect or *jump* directly to your office
+workstation.  Simply use the command: jump [username] and then enter your
+workstation password.  Please let me know if you have any questions,
+Mr. Anderson
+RUN IT Specialist

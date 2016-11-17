@@ -1,0 +1,58 @@
+{
+ "alex": {
+   "last": "unknown",
+   "dob": "unknown",
+   "middle": "Chris",
+   "employee": "Alex",
+   "position": "classified",
+   "type": "Current status: unknown"
+   }, 
+ "frank": {
+   "last": "on file",
+   "dob": "November 11, 1971",
+   "middle": "Robert",
+   "employee": "Frank",
+   "position": "Newhire Trainer",
+   "type": ""
+   },
+ "alice": {
+   "last": "on file",
+   "dob": "June 1, 1988",
+   "middle": "Jill",
+   "employee": "Alice",
+   "position": "Receptionist",
+   "type": "Newhire"
+   },
+ "david": {
+   "last": "Bart",
+   "dob": "May 23, 1978",
+   "middle": "Bart",
+   "employee": "David",
+   "position": "Newhire Coordinator",
+   "type": ""
+   },
+ "brian": {
+   "last": "on file",
+   "dob": "June 1, 1988",
+   "middle": "Harold",
+   "employee": "Brian",
+   "position": "Sales",
+   "type": ""
+   },
+ "cathy": {
+   "last": "on file",
+   "dob": "August 15, 1982",
+   "middle": "Ruth",
+   "employee": "Cathy",
+   "position": "Sales",
+   "type": ""
+   },
+ "elise": {
+   "last": "on file",
+   "dob": "November 3, 1965",
+   "middle": "Lisa",
+   "employee": "Elise",
+   "position": "Head of RUN HR",
+   "type": ""
+   }
+}

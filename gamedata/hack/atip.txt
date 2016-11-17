@@ -1,0 +1,4 @@
+Você precisára de um login e senha para acessar os sistemas, então é esperado
+que você seja capaz de descobrir a senha do usuário "alice". 
+Lembrando que ela não pensou em uma senha forte e portanto não será uma tarefa 
+difícil adivinhar a senha.

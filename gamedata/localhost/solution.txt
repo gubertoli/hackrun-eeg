@@ -1,0 +1,84 @@
+****** SPOILER ALERT! *******
+This file contains all the answers for those having trouble!
+I've been noticing that not many hackers made it very far
+in the game at all, so I thought I'd include this here
+solution file for those struggling.
+
+Your first step, if you haven't done so yet, is to read the
+the "readme" file on this host.  This will unlock a new
+command, the "run" command.
+
+You will need to use the "run" command to connect to the
+gateway server in order to gain access to the corporate
+network which is behind a firewall.
+
+I highly recommend typing "help" at every new segment, as
+it reveals all the available commands to you.
+
+From the "hack>" prompt, use the "gate" command, and the
+username is "alice", her password is "password".
+
+This will connect you into the corporate gateway, from
+here you need to "jump" to her workstation, to do that,
+use the "jump" command like this "jump alice".  You will
+then be prompted for Alice's password again, which is
+"password".  The only thing you can do on her workstation
+is read her mail.  From reading her mail, you should
+determine that user "brian" has the password of "baseball".
+
+To connect to Brian's workstation, first exit Alice's using
+the "exit" command.  This will bring you back to the gateway
+server.  From here type in "jump brian", and enter in his
+password, "baseball".  On his computer, after reading his
+mail, you will determine that "Cathy" likes this band
+called "OverniteDynamite", and visiting their website by
+typing in "web overnitedynamite.com", you should determine
+that Cathy's password is "love".
+
+Disconnect from Brian's workstation, and "jump cathy", and
+read her personal mail.  You notice that user "David" is
+very similar to user "brian", so David's password is also
+"baseball".  Disconnect from Cathy, and "jump david".
+
+You will notice a new website, "ReUsingNature.com", visit
+it by "web reusingnature.com", and you should then
+determine that the user "elise" has the password "hireme",
+and she's an HR manager.
+
+Disconnect from David's workstation, and "jump elise", and
+read her personal mail.  You will notice that she basically
+gives away the password for user "frank", but you will first
+need access to his HR files to determine his birthday.
+
+At this point in the game, you will receive a new mail from
+your employer.  Exit all the machines and go back to your
+localhost, and use the "mail" command there to "show hr" mail
+message.  Your employer installed a new program, "hr".
+
+Use the "run" command again, then from "hack>" type in "hr".
+
+Here you need to log in as user "elise" with password "hireme",
+and you will have access to the HR Database.  Your target
+is user "frank", but you can also look up other users you
+have seen so far to learn more about then.  To perform
+a search, first use the "search" command, then type in
+"frank".  This will show that his password is "11111971".
+
+Disconnect from the HR database and from "hack>" use the
+"gate" command again and log in as user "frank" with the
+password "11111971".  Then use "jump frank" and type in
+the same password a second time.  Open his "mail" and read
+this messages.  You will now determine the username format
+and the obvious password for all sales reps in the Reps
+system.
+
+At this point, you will receive a new mail from your employer.
+Go back to your localhost and read it.  It will unlock the
+"reps" command in "hack>", which will give you entry into
+the Reps system.  The username is "gford", and the password
+is "may".
+
+This is where the single player game comes to an end currently.
+
+*************  SPOILER ALERT ****************
+This file above explains the full solution to the game.

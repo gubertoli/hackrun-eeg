@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hack RUN Terminal</title>
+    <link href="css" rel="stylesheet"/>
+    <style> body { background-color: #000000; } </style>
+  </head>
+  <body>
+  <div id="terminal"></div>
+  <script src="jquery"></script>
+  <script src="terminal"></script>
+  <script src="options"></script>
+  <script>
+  function initWebSocket()
+  {
+    websocket = new WebSocket(wsURL);
+    websocket.onopen = function(evt) { term.echo('Connected.'); term.resume(); };
+    websocket.onclose = function(evt) { term.echo('Disconnected.'); term.pause(); };
+    websocket.onmessage = function(evt) {
+      op = evt.data.slice(0,1);
+      data = evt.data.slice(1);
+      if (op == 'M'){
+        term.echo(data);
+        //term.resume();
+      } else if (op == 'D'){
+        term.echo(data);
+      } else if (op == 'X'){
+        term.echo(data);
+        term.pause();
+        websocket.close();
+      } else if (op == 'P'){
+        term.cmd().name(data);
+        term.set_prompt(data);
+        term.resume();
+      } else if (op == 'S'){
+        term.pause();
+      } else if (op == 'R'){
+        term.resume();
+      } else if (op == '*'){
+        term.history().reset();
+        term.set_mask(true);
+        term.cmd().history().disable();
+      } else if (op == '-'){
+        term.set_mask(false);
+        term.cmd().history().enable();
+      } else if (op == '!'){
+        term.cmd().history().disable();
+      } else if (op == '#'){
+        term.cmd().history().enable();
+      }else{
+        term.error('Unexpected opcode from server: '+op);
+      }
+    };
+    websocket.onerror = function(evt) { term.error('Unable to contact server.'); term.pause(); };
+  }
+  $(function(){
+    term = $('#terminal').terminal(function(command, term) {
+          term.pause();
+          websocket.send(command);
+    }, {
+        height: 480,
+        greetings: '',
+        prompt: '',
+        exit: false,
+        onInit: function(term){
+          term.pause();
+          term.echo('Connecting to server...');
+          initWebSocket();
+        },
+        onExit: function(term){
+          websocket.close();
+        },
+    });
+  });
+  </script>
+  </body>
+</html>
