@@ -1,4 +1,4 @@
-Você precisára de um login e senha para acessar os sistemas, então é esperado
-que você seja capaz de descobrir a senha do usuário "alice". 
-Lembrando que ela não pensou em uma senha forte e portanto não será uma tarefa 
-difícil adivinhar a senha.
+You'll need a username and password to gain access to their systems, so I hope
+you'll be able to figure out alice's password.  I don't think you;ll mind me
+saying she's not very bright so figuring out her password should be a simple
+task for a senior hacker like yourself.
