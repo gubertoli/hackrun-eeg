@@ -150,6 +150,10 @@ class HackTerminal(object):
             if self.progress == p[0] and self.sys == p[1]:
                 self.progress +=1
                 log.info('[%s] Player made progress: %s' % (self.c.opid, self.progress))
+		output_log = open('testCasesEEG.txt','a') 
+		outlog = '%s; [%s] Player made progress: %s\n' % (datetime.strftime(datetime.now(), '%d-%b-%Y %H:%M:%S'),self.c.opid, self.progress)
+		output_log.write(outlog)
+		output_log.close()
                 if self.progress == 1:
                     self.COMMAND_LISTS['localhost'].append('run')
                 elif self.progress == 2:
