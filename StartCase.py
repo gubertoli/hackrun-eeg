@@ -33,7 +33,7 @@ if (nome <> "" and (int(dob) > 5 and int(dob)<99) and (int(grade) >= 1 and int(g
 	proc = subprocess.Popen(['python', 'read_mindwave.py'])
 	#os.system("python server.py")
 	proc2 = subprocess.Popen(['python', 'server.py'])
-	time.sleep(7)
+	time.sleep(13)
 	os.system("clear")
 	os.system("telnet localhost 4000")
 	#print("\n\n> Acesse o desafio no navegador ! ");
