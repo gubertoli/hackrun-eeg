@@ -1,6 +1,4 @@
-Esta rotina permitirá você a se conectar ao servidor gateway dos usuarios.
-Acesse o máximo de informações que você puder, a rotina transmitirá todas
-informações automaticamente. Investigue tudo - quanto mais você procurar, mais
-você vai conhecer. Faça um bom trabalho e vou estar em contato para atualizar 
-seu sistema.
-
+This routine will allow you to establish a connection to their gateway server.
+Access as much data on their servers as you can, the routine will transmit all
+the information to me automatically.  Just keep digging - the deeper you go the
+dirtier it will get.  Do well and I'll be in touch to upgrade your system.
